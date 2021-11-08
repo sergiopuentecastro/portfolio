@@ -1,0 +1,82 @@
+.hero {
+    padding: 50px;
+}
+
+.name {
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 1000px) {
+    h1 {
+    font-size: 5rem;
+    }
+}
+
+@media(max-width: 800px) {
+    .container {
+    padding: 0 1rem;
+    }
+
+    h1 {
+    font-size: 3rem;
+    }
+}
+
+@media(max-width: 500px) {
+    h1 {
+    font-size: 2.5rem;
+    }
+
+    h2 {
+    font-size: 1.5rem;
+    }
+}
+
+.images {
+    width: 400px;
+    height: 250px;
+    object-fit:fill;
+    /* justify-content: space-around; */
+}
+
+.title-projects{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.projects {
+    background-color: darkgrey;
+    height: 700px;
+}
+
+.col-projects {
+    margin-top: 50px;
+    margin: 20px;
+}
+
+.footer {
+    background-color: grey;
+    width: 100vw;
+    height: 230px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.icon {
+    color: red;
+    margin: 20px;
+}
+
+.icons {
+    text-align: center;
+}
+
